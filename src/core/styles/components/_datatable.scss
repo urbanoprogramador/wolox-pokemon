@@ -1,0 +1,103 @@
+.dataTableContent {
+
+
+
+    .contenPagi {
+        position: relative;
+        margin-bottom: 76px;
+    }
+
+    overflow-x: auto;
+    margin: 10px;
+    box-shadow: 0px 5px 23px -3px black;
+    padding: 2em;
+
+    .dataTable {
+        border-collapse: collapse;
+        width: 100%;
+
+        th,
+        td {
+            text-align: center;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    }
+
+    select,
+    input {
+
+        font-size: 1em;
+        padding: 0.5em;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    select {
+        width: 20%;
+    }
+
+    input {
+        width: 35%;
+        float: right;
+    }
+
+    ul.pagination {
+        display: inline-block;
+        padding: 0;
+        margin: 10px auto;
+
+        position: absolute;
+        top: 30px;
+        left: 0px;
+        right: 0px;
+        width: 500px;
+
+
+        li {
+            display: inline;
+
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+
+            &.active {
+                background-color: $primary;
+                color: white;
+            }
+
+            &:hover:not(.active) {
+                background-color: #ddd;
+            }
+
+        }
+
+    }
+
+
+
+}
+
+@media only screen and (max-width : 576px) {
+    .dataTableContent {
+
+        padding-top: 3em;
+    }
+}
+
+
+
+
+
+
+/* @media only screen and (max-width : 768px) and (min-width:578px) {
+    .btn {
+        &.btn-2{
+            width: 100%;
+        }
+    }
+} */

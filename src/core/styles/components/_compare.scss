@@ -1,0 +1,44 @@
+.listPokemones {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+
+    .itemsPokemon {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .listPokemones {
+
+        grid-template-columns: auto auto;
+        .itemsPokemon {
+            display: grid;
+            grid-template-columns: auto;
+        }
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .listPokemones {
+
+        grid-template-columns: auto;
+
+        .itemsPokemon {
+            display: grid;
+            grid-template-columns:  auto auto;
+        }
+    }
+}

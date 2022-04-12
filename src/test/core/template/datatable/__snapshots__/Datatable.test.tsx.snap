@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando el DataTable Carga completa de el componente table y sus partes 1`] = `
+<div
+  class="dataTableContent"
+>
+  <div
+    class="contenPagi"
+  >
+    <div>
+      <h4>
+        Pokemones 
+        1
+         a 
+        5
+         de  
+        5
+          
+      </h4>
+      <ul
+        class="pagination"
+      >
+        <li>
+          <i
+            aria-hidden="true"
+            class="fa fa-fast-backward"
+          />
+        </li>
+        <li>
+          <i
+            aria-hidden="true"
+            class="fa fa-backward"
+          />
+        </li>
+        <li
+          class="active"
+        >
+          1
+        </li>
+        <li>
+          <i
+            aria-hidden="true"
+            class="fa fa-forward"
+          />
+        </li>
+        <li>
+          <i
+            aria-hidden="true"
+            class="fa fa-fast-forward"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div>
+    <div>
+      <select>
+        <option
+          value="5"
+        >
+          5
+        </option>
+        <option
+          value="10"
+        >
+          10
+        </option>
+        <option
+          value="20"
+        >
+          20
+        </option>
+        <option
+          value="50"
+        >
+          50
+        </option>
+        <option
+          value="100"
+        >
+          100
+        </option>
+      </select>
+      <input
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <table
+    class="dataTable"
+  >
+    <thead>
+      <tr>
+        <th>
+          id
+        </th>
+        <th>
+          nombre
+        </th>
+        <th>
+          Correo
+        </th>
+        <th>
+          telefono
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          1
+        </td>
+        <td>
+          usuario uno
+        </td>
+        <td>
+          correo@usuario.uno
+        </td>
+        <td>
+          12344444444
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2
+        </td>
+        <td>
+          usuario dos
+        </td>
+        <td>
+          correo@usuario.dos
+        </td>
+        <td>
+          22222222
+        </td>
+      </tr>
+      <tr>
+        <td>
+          3
+        </td>
+        <td>
+          usuario tres
+        </td>
+        <td>
+          correo@usuario.tres
+        </td>
+        <td>
+          33333333
+        </td>
+      </tr>
+      <tr>
+        <td>
+          4
+        </td>
+        <td>
+          usuario cuatro
+        </td>
+        <td>
+          correo@usuario.cuatro
+        </td>
+        <td>
+          444444
+        </td>
+      </tr>
+      <tr>
+        <td>
+          5
+        </td>
+        <td>
+          usuario cinco
+        </td>
+        <td>
+          correo@usuario.cionco
+        </td>
+        <td>
+          555555555
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div
+    class="contenPagi"
+  >
+    <div>
+      <h4>
+        Pokemones 
+        1
+         a 
+        5
+         de  
+        5
+          
+      </h4>
+      <ul
+        class="pagination"
+      >
+        <li>
+          <i
+            aria-hidden="true"
+            class="fa fa-fast-backward"
+          />
+        </li>
+        <li>
+          <i
+            aria-hidden="true"
+            class="fa fa-backward"
+          />
+        </li>
+        <li
+          class="active"
+        >
+          1
+        </li>
+        <li>
+          <i
+            aria-hidden="true"
+            class="fa fa-forward"
+          />
+        </li>
+        <li>
+          <i
+            aria-hidden="true"
+            class="fa fa-fast-forward"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
