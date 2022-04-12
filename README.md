@@ -1,4 +1,4 @@
-# Shopify-demo
+# wolox-pokemon
 
 Proyecto desarrollado por roimar rafael urbano Urbanoprogramador@gmail.com
 
